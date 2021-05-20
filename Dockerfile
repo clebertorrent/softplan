@@ -12,7 +12,7 @@ FROM mcr.microsoft.com/dotnet/aspnet:5.0
 
 ENV TZ=America/Sao_Paulo
 
-EXPOSE 80
+EXPOSE 9092
 
 WORKDIR /app
 
